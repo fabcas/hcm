@@ -7,11 +7,9 @@
   background:  url(img/img1.jpg) 50% 0 repeat fixed;
   min-height: 1000px; 
   height: 1000px; 
-  /*margin: 0 auto; */
   width: 100%; 
- /* max-width: 1920px;*/
   position: relative; 
-  opacity:0.6;
+  opacity:0.6
 }
  
 #home article { 
@@ -25,10 +23,6 @@
 #feat { 
   background: url(img/img2.jpg) 50% 0 repeat fixed; 
   min-height: 1000px; 
-  height: 1000px; 
-  /*margin: 0 auto; */
-  width: 100%; 
-  /*max-width: 1920px; */
   position: relative; 
   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
   box-shadow: 0 0 50px rgba(0,0,0,0.8);
@@ -45,10 +39,6 @@
 #about{
   background: url(img/img1.jpg) 50% 0 repeat fixed; 
   min-height: 1000px; 
-  height: 1000px; 
-  /*margin: 0 auto; */
-  width: 100%; 
- /* max-width: 1920px; */
   position: relative; 
   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
   box-shadow: 0 0 50px rgba(0,0,0,0.8);

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<div id="skrollr-body">
+		<section id="home" data-type="background" data-speed="10" class="pages">     
+	         <article>I am absolute positioned</article>
+	    </section> 
+	      
+	     <div class="gap gap-100" style="background-image:url(images/kitteh1.jpg);"></div>
+		<div class="content" id="bacons">
+			<p>Sin sueños, sin vida, sin alma...</p>
+			<section id="about" data-type="background" data-speed="10" class="pages">
+			         <article>Simple Parallax Scroll</article>
+			</section>
+		</div>
+
+		<section id="home" data-type="background" data-speed="10" class="pages">
+		         <article> Parallax Scroll</article>
+		</section>
+	</div>
+
+	<!--<div data-0="transform:translate(0,0%);" data-100p="transform:translate(0,-100%);"></div>
+
+	<div data-0="transform:translate(0,100%);" data-100p="transform:translate(0,0%)" data-_box-100p="" data-_box-200p="transform:translate(0,-100%)">
+		<div class="box" data-100p="width:0%;" data-_box-100p="width:100%">
+			
+		</div>
+	</div>
+
+	<div data-_box-100p="transform:translate(0,100%);" data-_box-200p="transform:translate(0,0%);"></div>-->
+
+	<script type="text/javascript" src="skrollr-master/dist/skrollr.min.js"></script>
+
+	<script type="text/javascript">
+	skrollr.init({
+		constants: {
+			box: '150p'
+		}
+	});
+	</script>
+   
+</body>
+</html>
